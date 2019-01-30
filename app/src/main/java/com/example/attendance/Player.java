@@ -2,6 +2,7 @@ package com.example.attendance;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.PorterDuff;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -35,6 +36,7 @@ public class Player extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressLint("New Api")
     @Override
@@ -154,6 +156,7 @@ public class Player extends AppCompatActivity {
         label.setText(sname);
         mymp.start();
     }
+
 
 
 
